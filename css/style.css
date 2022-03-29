@@ -1,8 +1,8 @@
 body {
     margin: 0 auto;
     width: 100%;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Comic Neue', cursive;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Comic Neue", cursive;
     overflow-x: hidden;
 }
 
@@ -16,7 +16,12 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -28,7 +33,6 @@ a {
     text-decoration: none;
 }
 
-
 .container {
     max-width: 971px;
     margin: 0 auto;
@@ -37,11 +41,6 @@ a {
 
     background-color: white;
 }
-
-
-
-
-
 
 /* ==========   Header   ========== */
 
@@ -57,11 +56,10 @@ a {
 }
 
 .logo h1 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 36px;
     line-height: 1.2;
     color: #e8603c;
-
 }
 
 .logo span {
@@ -77,7 +75,7 @@ a {
 }
 
 .nav-link {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 16px;
     line-height: 1.2;
     color: #b9b9b9;
@@ -105,19 +103,9 @@ a {
     position: relative;
 }
 
-
-
-
-
-
-
-
-
-
 /* ======================================== */
 /* ==========   Main index.html  ========== */
 /* ======================================== */
-
 
 /* ==========   Slider   ========== */
 
@@ -133,29 +121,24 @@ a {
 .title-list::after {
     position: absolute;
     content: "";
-    width: calc((100vw - 941px)/2);
+    width: calc((100vw - 941px) / 2);
     height: 61px;
     top: 0;
-
 
     background-color: rgba(232, 96, 60, 0.5);
 }
 
 .slider-box::before,
 .footer::before {
-    left: calc(((-100vw + 971px)/2) - 10px);
-
+    left: calc(((-100vw + 971px) / 2) - 10px);
 }
 
 .slider-box::after,
 .footer::after {
-    right: calc(((-100vw + 971px)/2) - 10px);
+    right: calc(((-100vw + 971px) / 2) - 10px);
 }
 
-
-
 .slider-box-item {
-
     max-width: 941px;
     height: 401px;
     overflow: hidden;
@@ -164,7 +147,6 @@ a {
 
 .big-img,
 .small-img {
-
     width: 100%;
     height: 100%;
     display: flex;
@@ -183,7 +165,6 @@ a {
     width: 140px;
     height: 120px;
     margin-right: 10px;
-
 }
 
 .slick-next,
@@ -207,18 +188,13 @@ a {
     opacity: 0.7;
 }
 
-
-
 .slick-prev:before,
 .slick-next::before {
-
     color: #ccc;
     opacity: 0.4;
     width: 400px;
     height: 400px;
 }
-
-
 
 /* ==========   Features   ========== */
 
@@ -240,7 +216,7 @@ a {
 }
 .features-item-title h2 {
     margin-left: 22px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 22px;
     line-height: 20px;
     font-weight: 400;
@@ -261,7 +237,7 @@ a {
     height: 31px;
     margin-bottom: 40px;
 
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 12px;
     line-height: 24px;
     font-weight: 400;
@@ -271,10 +247,7 @@ a {
     cursor: pointer;
 }
 
-
-
 /* ==========   Works   ========== */
-
 
 .works-title-wrapper {
     display: flex;
@@ -295,7 +268,7 @@ a {
 }
 
 .works-title {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 24px;
     line-height: 0.9;
     font-weight: 400;
@@ -318,7 +291,7 @@ a {
 
 .works-name {
     margin-top: 11px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 22px;
     line-height: 20px;
     font-weight: 400;
@@ -327,20 +300,16 @@ a {
 
 .works-data {
     margin-bottom: 30px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 17px;
     line-height: 20px;
     font-weight: 400;
     color: #e8663c;
 }
 
-
-
-
 /* ============================== */
 /* ==========   Abour  ========== */
 /* ============================== */
-
 
 /* ==========   Header  ========== */
 
@@ -351,13 +320,11 @@ a {
     padding-left: 20px;
     align-items: center;
 
-
-
     background-color: #e8663c;
 }
 
-.title-list>h2 {
-    font-family: 'Bebas Neue', cursive;
+.title-list > h2 {
+    font-family: "Bebas Neue", cursive;
     font-size: 26px;
     line-height: 32px;
     font-weight: 400;
@@ -365,14 +332,12 @@ a {
 }
 
 .title-list::before {
-    left: calc(((-100vw + 971px)/2) - 25px);
-
+    left: calc(((-100vw + 971px) / 2) - 25px);
 }
 
 .title-list::after {
-    right: calc(((-100vw + 971px)/2) - 25px);
+    right: calc(((-100vw + 971px) / 2) - 25px);
 }
-
 
 /* ==========   Main  ========== */
 
@@ -396,16 +361,11 @@ a {
     margin-left: 78px;
 }
 
-
-
-
-
 /* ==========   left-column   ========== */
 
 .left-column {
     width: 672px;
     margin-right: 15px;
-
 }
 
 .left-column-fload {
@@ -488,9 +448,6 @@ a {
     border: 1px solid #4d8fcb;
 }
 
-
-
-
 /* ==========   Right-column   ========== */
 
 .right-column {
@@ -514,7 +471,7 @@ a {
 
 .right-column-title {
     margin-bottom: 21px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 16px;
     line-height: 0.9;
     font-weight: 400;
@@ -528,11 +485,6 @@ a {
     font-weight: 400;
     color: #464646;
 }
-
-
-
-
-
 
 /* ============================= */
 /* ==========   Blog  ========== */
@@ -565,20 +517,19 @@ a {
 }
 
 .post-video {
-	position: relative;
-	padding-top: 56.25%;
+    position: relative;
+    padding-top: 56.25%;
 }
 .post-video iframe {
-	width: 100%;
-	height: 100%;
-	display: block;
-	position: absolute;
-	margin: 0;
-	top: 0;
-	left: 0;
-	border: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    border: none;
 }
-
 
 .post-icon1::before {
     content: url(../img/blog/icon_304.png);
@@ -623,7 +574,7 @@ a {
 }
 
 .post-discription-left-title {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
@@ -631,7 +582,6 @@ a {
 }
 
 .post-discription-left-text {
-
     font-size: 12px;
     line-height: 20px;
     font-weight: 400;
@@ -644,7 +594,7 @@ a {
 
 .post-discription-right-title {
     margin-bottom: 20px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 20px;
     line-height: 18px;
     font-weight: 400;
@@ -686,12 +636,6 @@ a {
     margin-bottom: 20px;
 }
 
-
-
-
-
-
-
 /* =================================== */
 /* ==========   Portfolio   ========== */
 /* =================================== */
@@ -699,12 +643,11 @@ a {
 .portfolio-nav {
     margin-top: 45px;
     margin-bottom: 37px;
-
 }
 
 .portfolio-nav-link {
     padding: 5px 13px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -730,7 +673,6 @@ a {
     background-color: #e8663c;
 }
 
-
 .portfolio-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -745,7 +687,7 @@ a {
     z-index: 1;
 }
 
-.portfolio-item:hover:before{
+.portfolio-item:hover:before {
     z-index: 5;
 
     content: url(../img/portfolio/__424.png);
@@ -758,7 +700,6 @@ a {
     left: 0;
     background-color: #000000;
     opacity: 0.75;
-
 }
 
 .portfolio-item-img {
@@ -768,7 +709,7 @@ a {
 .portfolio-item-title {
     margin-left: 10px;
     margin-top: 5px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
@@ -779,18 +720,12 @@ a {
     margin-top: 3px;
     margin-left: 10px;
     margin-bottom: 13px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
     color: #e8663c;
 }
-
-
-
-
-
-
 
 /* =========================================== */
 /* ==========   Portfolio content   ========== */
@@ -798,29 +733,19 @@ a {
 
 .portfolio-content {
     margin-top: 24px;
-
 }
 
 .portfolio-content-img {
     margin-bottom: 24px;
 }
 
-
-
-
-
-
-
 /* ================================= */
 /* ==========   Contact   ========== */
 /* ================================= */
 
-
-
 .contact-map {
     width: 100%;
 }
-
 
 .contact-wrapper {
     margin-top: 36px;
@@ -830,7 +755,6 @@ a {
 }
 
 .contact-item {
-
     width: 30%;
     font-size: 12px;
     line-height: 14px;
@@ -862,7 +786,7 @@ a {
 
 .form input::placeholder,
 .form textarea::placeholder {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 14px;
     line-height: 28px;
     font-weight: 400;
@@ -884,7 +808,7 @@ a {
     width: 67px;
     height: 31px;
 
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -893,13 +817,6 @@ a {
     border: none;
     cursor: pointer;
 }
-
-
-
-
-
-
-
 
 /* =============================== */
 /* ==========   Footer  ========== */
@@ -915,17 +832,15 @@ a {
 
     position: relative;
     background-color: #e8663c;
-
 }
 
 .footer::before {
-    left: calc(((-100vw + 971px)/2) - 25px);
+    left: calc(((-100vw + 971px) / 2) - 25px);
     height: 100%;
-
 }
 
 .footer::after {
-    right: calc(((-100vw + 971px)/2) - 25px);
+    right: calc(((-100vw + 971px) / 2) - 25px);
     height: 100%;
 }
 
@@ -934,11 +849,10 @@ a {
     margin-bottom: 30px;
 }
 
-
 .footer-item-title {
     margin-bottom: 20px;
 
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 24px;
     line-height: 1.2;
     font-weight: 400;
@@ -970,23 +884,7 @@ a {
     margin-right: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 991px) {
-
     /* ==========   Works   ========== */
 
     .works-wrapper {
@@ -1002,9 +900,7 @@ a {
     }
 }
 
-
 @media (max-width: 767px) {
-
     /* ==========   Burger + Nav  ========== */
 
     .nav {
@@ -1042,9 +938,7 @@ a {
         100% {
             right: 30px;
         }
-
     }
-
 
     .burger {
         display: block;
@@ -1063,8 +957,7 @@ a {
         right: 0;
         background-color: #e8603c;
 
-        transition: 0.3s ease ;
-
+        transition: 0.3s ease;
     }
 
     .burger span:first-child {
@@ -1077,13 +970,11 @@ a {
         width: 30px;
     }
 
-    .burger-activ{
+    .burger-activ {
         position: fixed;
         z-index: 100;
         right: 13px;
     }
-
-
 
     .burger-activ span:nth-child(2) {
         opacity: 0;
@@ -1103,8 +994,6 @@ a {
         transform: rotate(-45deg);
     }
 
-
-
     /* ==========   Slider   ========== */
 
     .slick-next,
@@ -1112,22 +1001,16 @@ a {
         display: none;
     }
 
-
-
     /* ==========   Features   ========== */
 
     .features-item {
         width: 100%;
         text-align: center;
-
     }
 
     .features-item-title {
         margin-left: 30vw;
     }
-
-
-
 
     /* ==========   Works   ========== */
 
@@ -1140,15 +1023,11 @@ a {
         width: 100%;
     }
 
-
-
     /* ==========   Footer  ========== */
 
     .footer-item {
         width: 100%;
     }
-
-
 
     /* ============================== */
     /* ==========   Abour  ========== */
@@ -1176,8 +1055,6 @@ a {
         width: 100%;
     }
 
-
-
     /* ==========   Contact   ========== */
 
     .contact-wrapper {
@@ -1192,21 +1069,10 @@ a {
         width: 100%;
         margin-bottom: 10px;
     }
-
 }
 
-
 @media (max-width: 575px) {
-
     .features-item-title {
         margin-left: 10vw;
     }
-
-
-
-
-
-
 }
-
-
